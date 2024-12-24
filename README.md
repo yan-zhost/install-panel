@@ -1,15 +1,3 @@
-# :bird: Pterodactyl-Theme-Autoinstaller
-
-
-
-## Auto Install Thema Pterodactyl
-
-## Command Install :
-
-```bash <(curl -s https://raw.githubusercontent.com/yan-zhost/Install-panel/main/install.sh)
-```
-
-
 ## System Support :
 
 | Operating System | Version | Supported          |
