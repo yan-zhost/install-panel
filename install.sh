@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © ALFA OFFICIAL                [+]${NC}"
+  echo -e "${BLUE}[+]                  © YANZ HOST                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@alfaofficial9163"
+  echo -e "@yanz_kece"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "© ALFA OFFC"
+  echo -e "©YANZ HOST"
   sleep 4
   clear
 }
@@ -62,12 +62,12 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "alfaofficial0908" ]; then
+  if [ "$USER_TOKEN" = "YANZ" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke Alfa Offc${NC}"
-    echo -e "${YELLOW}TELEGRAM : @alfaofficial9163${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6282226769163${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke YANZ HOST${NC}"
+    echo -e "${YELLOW}TELEGRAM : @yanz_kece${NC}"
+    echo -e "${YELLOW}WHATSAPP : 083894819960${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
     echo -e "${YELLOW}©alfaofficial${NC}"
     exit 1
@@ -92,7 +92,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/yan-zhost/install-panel/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/yan-zhost/Install-panel/raw/main/C2.zip")
         break
         ;;
       2)
@@ -100,7 +100,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/yan-zhost/install-panel/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/yan-zhost/Install-panel/raw/main/C3.zip")
         break
         ;; 
       x)
@@ -226,7 +226,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/yan-zhost/install-panel/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/yan-zhost/Install-panel/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -245,7 +245,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/yan-zhost/install-panel/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/yan-zhost/Install-panel/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
@@ -452,10 +452,10 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                          ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                         ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                                        ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg        Auto Installer Alfa Offc         ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg        Auto Installer YANZ HOST         ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      -----------------------------      ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : alfaofficial9163      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : ALFA HOSTING           ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : yanz_kece      ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : YANZ HOST           ${NC}"
   echo -e "${RED} ggg.    '.'''ggggggp           • Support by ALFA HOSTING           ${NC}"
   echo -e "${RED}  'ggg    '-.__                                                    ${NC}"
   echo -e "${RED}    ggg                                                            ${NC}"
